@@ -47,7 +47,7 @@ class backgammon {
 	// if game end
 	private $win = false;
 	
-	// roll Dice
+	// roll up dice
 	private function getDice() {
 		$one = random_int(1, 6);
 		$two = random_int(1, 6);
